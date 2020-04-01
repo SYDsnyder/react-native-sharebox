@@ -5,9 +5,8 @@ import React from 'react';
 import { View,Text, Image, TouchableOpacity, Modal } from 'react-native';
 import PropTypes from 'prop-types';
 
-import * as WeChat from 'react-native-wechat';
 import {Toast} from "@ant-design/react-native";
-
+import * as WeChat from 'react-native-wechat';
 
 export default class ShareBox extends React.PureComponent {
 
@@ -42,9 +41,8 @@ export default class ShareBox extends React.PureComponent {
       pengyou && this.itemList.push({ title:'朋友圈',page:'pengyou', icon: Theme.commonImages.shareBoxIcon.wxq });
 
     }
-
-    componentDidMount(){
-      WeChat.registerApp(this.props.appId);
+    async componentDidMount(){
+        await WeChat.registerApp(this.props.appId);
     }
 
     onItemSelected(item) {

@@ -25,6 +25,6 @@
     "@ant-design/react-native": "^3.3.0",
     "prop-types": "^15.7.2",
     "react-native": "^0.62.0",
-    "react-native-wechat": "^1.9.10"
+    "react-native-wechat": "^1.9.12"
   }
 }
