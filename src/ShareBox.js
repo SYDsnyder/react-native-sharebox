@@ -41,8 +41,8 @@ export default class ShareBox extends React.PureComponent {
       pengyou && this.itemList.push({ title:'朋友圈',page:'pengyou', icon: Theme.commonImages.shareBoxIcon.wxq });
 
     }
-    async componentDidMount(){
-        await WeChat.registerApp(this.props.appId);
+    componentDidMount(){
+        WeChat.registerApp(this.props.appId);
     }
 
     onItemSelected(item) {
