@@ -1,0 +1,30 @@
+{
+  "name": "react-native-sharebox",
+  "version": "1.0.0",
+  "description": "A ReactNative ShareBox Component for android and iOS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "snyder",
+    "email": "snyder_vip@163.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SYDsnyder/react-native-sharebox.git"
+  },
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  },
+  "dependencies": {
+    "@ant-design/react-native": "^3.3.0",
+    "prop-types": "^15.7.2",
+    "react-native": "^0.62.0",
+    "react-native-wechat": "^1.9.10"
+  }
+}
